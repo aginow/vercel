@@ -8,6 +8,7 @@ import { z } from "zod";
 
 const generateImageSchema = z.object({
   prompt: z.string().min(1, "Prompt is required"),
+  inputImages: z.array(z.string().url()).optional(),
 });
 
 export async function POST(req: Request) {
@@ -28,10 +29,10 @@ export async function POST(req: Request) {
     }
 
     const body = await req.json();
-    const { prompt } = generateImageSchema.parse(body);
+    const { prompt, inputImages } = generateImageSchema.parse(body);
 
     // Generate image using Replicate
-    const imageUrls = await generateImage(prompt);
+    const imageUrls = await generateImage(prompt, inputImages);
 
     if (!imageUrls || imageUrls.length === 0) {
       return NextResponse.json(

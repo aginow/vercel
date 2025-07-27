@@ -52,7 +52,7 @@ test.describe('End-to-end user flow', () => {
     await page.getByRole('button', { name: /generate|create/i }).click();
     
     // Wait for image to be generated (this might take some time)
-    await page.waitForSelector('img', { timeout: 60000 });
+    await page.waitForSelector('img', { timeout: 90000 });
     
     // Verify image is displayed
     const image = await page.locator('img').first();

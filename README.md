@@ -61,7 +61,7 @@ npx vercel --prod
    | Name | Value | Environment |
    |------|-------|-------------|
    | `DATABASE_URL` | Paste your Postgres connection string | Production |
-   | `NEXTAUTH_URL` | `https://your-app.vercel.app` | Production |
+   | `NEXTAUTH_URL` | `https://vercel-aginow.vercel.app` | Production |
    | `NEXTAUTH_SECRET` | Generate with `openssl rand -base64 32` | Production |
    | `BLOB_READ_WRITE_TOKEN` | Paste your blob token | Production |
    | `REPLICATE_API_TOKEN` | Your Replicate API token | Production |

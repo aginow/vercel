@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 
 export default function GenerateImage() {
-  const { data: session, status } = useSession();
+  const { status } = useSession();
   const router = useRouter();
   const [prompt, setPrompt] = useState('');
   const [generatedImage, setGeneratedImage] = useState('');
