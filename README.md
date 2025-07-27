@@ -1,6 +1,11 @@
-# Now anyone can be a founder!
+# ImageGen - AI Image Generation Platform
 
-Anyone can use cursor or claude code to make their own application built with Next.js 15, featuring a database with user authentication, image storage, and OpenAI's gpt-image-1 or any other model on Replicate.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Next.js](https://img.shields.io/badge/Next.js-15-black)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-38B2AC)](https://tailwindcss.com/)
+
+A modern AI image generation application built with Next.js 15, featuring user authentication, image storage, and powered by Replicate's FLUX model.
 
 ## 🚀 Quick Start (5 Minutes Setup!)
 
@@ -476,6 +481,19 @@ Improve your code quality:
 - 🧪 **Test**: Always test AI-generated code thoroughly
 
 ---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+### What this means:
+- ✅ **Commercial use** - Use this project for commercial purposes
+- ✅ **Modification** - Modify and adapt the code
+- ✅ **Distribution** - Distribute copies of the software
+- ✅ **Private use** - Use the software privately
+- ✅ **Patent use** - Use any patents contributed by the authors
+
+**Attribution required** - Include the original copyright notice and license in any copy of the software.
 
 🎉 **Congratulations!** Your ImageGen application is now fully deployed and configured. Users can register, log in, and generate AI images with a professional setup including custom domain and proper environment management.
 
