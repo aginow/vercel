@@ -33,7 +33,7 @@ export default function About() {
             </ul>
           </div>
           <div className="about-image">
-            <img src="https://images.unsplash.com/photo-1677442135136-760c813a743d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3MDQ5NzB8MHwxfHNlYXJjaHwxfHxhaXxlbnwwfHx8fDE3MzkzMDkyNzd8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="AI Technology" />
+            <img src="/ai-technology.svg" alt="AI Technology" />
           </div>
         </div>
       </section>

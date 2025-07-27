@@ -62,7 +62,7 @@ export default function Home() {
             <Link href="/register" className="btn">Join Now</Link>
           </div>
           <div className="about-image">
-            <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3MDQ5NzB8MHwxfHNlYXJjaHwxfHxhaXxlbnwwfHx8fDE3MzkzMDkyNzd8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="AI Technology" />
+            <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3MDQ5NzB8MHwxfHNlYXJjaHwxfHxzdGFydHVwJTIwYWNjZWxlcmF0b3J8ZW58MHx8fHwxNzM5MzA5Mjc3fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="AI Technology" />
           </div>
         </div>
       </section>
